@@ -1,9 +1,5 @@
 # Job Fair Application API Documentation
 
-## Authentication 
-
-### Login
-
 POST /auth/login
 Description: This API Authenticates the users (Employer or Job Seeker) and returns a token for access.
 Request:
