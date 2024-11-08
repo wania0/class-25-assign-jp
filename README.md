@@ -1,6 +1,6 @@
-# Job Fair Application API
+# Job Fair Application API Documentation
 
-## Authentication and User Management
+## Authentication 
 
 ### Login
 
@@ -14,3 +14,12 @@ Description: Authenticates the users (Employer or Job Seeker) and returns a toke
   "username": "string",
   "password": "string"
 }
+
+**Response:**
+
+```json
+{
+  "message": "logged in successfully",
+  "token": "string"
+}
+
